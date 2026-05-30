@@ -46,7 +46,7 @@ CREATE TABLE silver.crm_cust_info (
 	cst_key				NVARCHAR(50),
 	cst_firstname		NVARCHAR(50),
 	cst_lastname		NVARCHAR(50),
-	cst_material_status NVARCHAR(50),
+	cst_marital_status NVARCHAR(50),
 	cst_gndr			NVARCHAR(50),
 	cst_create_date		DATE,
 	dwh_create_date		DATETIME2 DEFAULT GETDATE()
@@ -104,6 +104,6 @@ CREATE TABLE silver.erp_px_cat_g1v2 (
 	id			NVARCHAR(50),
 	cat			NVARCHAR(50),
 	subcat		NVARCHAR(50),
-	mainenance	NVARCHAR(50),
+	maintenance	NVARCHAR(50),
 	dwh_create_date		DATETIME2 DEFAULT GETDATE()
 )
